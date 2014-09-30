@@ -1,0 +1,147 @@
+/ * ESTILOS GLOBAL
+-------------------------------------------------- * /
+/ * Preenchimento abaixo do rodapé e mais leve o corpo do texto * /
+
+body {
+  padding-bottom: 40px;
+  color: # 5a5a5a;
+}
+
+
+
+/ * Personalizar a barra de navegação
+-------------------------------------------------- * /
+
+/ * Class Especial sobre. Recipiente circundante. Barra de navegação, utilizado para posicioná-la no lugar. * /
+. Navbar-wrapper {
+  position: absolute;
+  top: 0;
+  direita: 0;
+  esquerda: 0;
+  z-index: 20;
+}
+
+/ * Virar em todo o estofo para a exibição correta em viewports estreitas * /
+. Navbar-wrapper. Container {
+  padding-right: 0;
+  padding-left: 0;
+}
+. Navbar-wrapper. Navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+
+/ * Personalizar a CARROSSEL
+-------------------------------------------------- * /
+
+/ * Classe base do carrossel * /
+. Carrossel {
+  height: 500px;
+  margin-bottom: 60px;
+}
+/ * Uma vez que o posicionamento da imagem, é preciso ajudar a legenda * /
+. Carrossel-caption {
+  z-index: 10;
+}
+
+/ * Declare alturas por causa do posicionamento do elemento img * /
+. Carrossel. Item {
+  height: 500px;
+  background-color: # 777;
+}
+. Carrossel-interno>. Item> img {
+  position: absolute;
+  top: 0;
+  esquerda: 0;
+  min-width: 100%;
+  height: 500px;
+}
+
+
+
+/ * Conteúdo de marketing
+-------------------------------------------------- * /
+
+/ * Pad as bordas dos modos de exibição móveis um pouco * /
+. Comercialização {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/ * Centro de alinhar o texto dentro das três colunas abaixo do carrossel * /
+. Marketing. Col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+H2. Comercialização {
+  font-weight: normal;
+}
+. Marketing. Col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+
+/ * Featurettes
+------------------------- * /
+
+. Featurette divisor {
+  margin: 80px 0; / * Espaço o Bootstrap <HR> mais * /
+}
+
+/ * Fina fora os títulos de marketing * /
+. Featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing:-1px;
+}
+
+
+
+/ * CSS RESPONSIVE
+-------------------------------------------------- * /
+
+@ Media (min-width: 768px) {
+
+  / * Remover o preenchimento vantagem necessária para celular * /
+  . Comercialização {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  / * Posicionamento Navbar foo * /
+  . Navbar-wrapper {
+    margin-top: 20px;
+  }
+  . Navbar-wrapper. Container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  . Navbar-wrapper. Navbar {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  / * A barra de navegação torna-se separado do topo, então arredondar os cantos * /
+  . Navbar-wrapper. Navbar {
+    border-radius: 4px;
+  }
+
+  / * Bump up tamanho do conteúdo carrossel * /
+  . Carrossel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4;
+  }
+
+  . Featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@ Media (min-width: 992px) {
+  . Featurette-heading {
+    margin-top: 120px;
+  }
+}

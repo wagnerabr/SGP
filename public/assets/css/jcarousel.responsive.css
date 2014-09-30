@@ -1,0 +1,265 @@
+.jcarousel-wrapper {
+    margin: 0 auto;
+    position: relative;
+}
+
+/** Carousel **/
+
+.jcarousel {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.jcarousel ul {
+    width: 20000em;
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.jcarousel li {
+    width: 25%;
+    float: left;
+    border: 1px solid #fff;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+	margin: 0 5px;
+}
+
+.jcarousel li:hover{
+	opacity: 0.5;
+}
+
+.jcarousel img {
+    display: block;
+    max-width: 100%;
+    height: auto !important;
+}
+
+.jcarousel div {
+    color: #58595B;
+    font-family: roboto_condenseditalic;
+    font-size: 16px;
+    text-align: center;
+}
+
+/** Carousel Controls **/
+
+.jcarousel-control-prev, .jcarousel-control-next {
+    background: none repeat scroll 0 0 #F28121;
+    bottom: 24px;
+    color: #FFFFFF;
+    font: 60px/37px Arial,sans-serif;
+    height: 45px;
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+    width: 45px;
+}
+
+.jcarousel-control-prev {
+    left: 6px;
+}
+
+.jcarousel-control-next {
+    right: 6px;
+}
+
+.jcarousel-wrapper a {
+    color: #FFFFFF;
+}
+
+.jcarousel-wrapper a:hover {
+	color: #FFF;
+	text-decoration: none;
+    background: none repeat scroll 0 0 #D9651E;
+}
+
+.jcarousel-wrapper a:focus {
+	color: #FFF;
+	text-decoration: none;
+}
+
+
+/** Carousel Pagination **/
+
+.jcarousel-pagination {
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    margin: 0;
+}
+
+.jcarousel-pagination a {
+    text-decoration: none;
+    display: inline-block;
+
+    font-size: 11px;
+    height: 10px;
+    width: 10px;
+    line-height: 10px;
+
+    background: #fff;
+    color: #4E443C;
+    border-radius: 10px;
+    text-indent: -9999px;
+
+    margin-right: 7px;
+
+
+    -webkit-box-shadow: 0 0 2px #4E443C;
+    -moz-box-shadow: 0 0 2px #4E443C;
+    box-shadow: 0 0 2px #4E443C;
+}
+
+.jcarousel-pagination a.active {
+    background: #4E443C;
+    color: #fff;
+    opacity: 1;
+
+    -webkit-box-shadow: 0 0 2px #F0EFE7;
+    -moz-box-shadow: 0 0 2px #F0EFE7;
+    box-shadow: 0 0 2px #F0EFE7;
+}
+
+body .wrapper {
+    margin: auto;
+    max-width: 1170px;
+    padding: 0 20px 40px;
+}
+
+.jcarousel2-wrapper {
+    margin: 0 auto;
+    position: relative;
+}
+
+/** Carousel **/
+
+.jcarousel2 {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.jcarousel2 ul {
+    width: 20000em;
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.jcarousel2 li {
+    width: 25%;
+    float: left;
+    border: 1px solid #fff;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+	margin: 0 5px;
+}
+
+.jcarousel2 li:hover{
+	opacity: 0.5;
+}
+
+.jcarousel2 img {
+    display: block;
+    max-width: 100%;
+    height: auto !important;
+}
+
+.jcarousel2 div {
+    color: #58595B;
+    font-family: roboto_condenseditalic;
+    font-size: 16px;
+    text-align: center;
+}
+
+/** Carousel Controls **/
+
+.jcarousel2-control-prev, .jcarousel2-control-next {
+    background: none repeat scroll 0 0 #F28121;
+    bottom: 24px;
+    color: #FFFFFF;
+    font: 60px/37px Arial,sans-serif;
+    height: 45px;
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+    width: 45px;
+}
+
+.jcarousel2-control-prev {
+    left: 6px;
+}
+
+.jcarousel2-control-next {
+    right: 6px;
+}
+
+.jcarousel2-wrapper a {
+    color: #FFFFFF;
+}
+
+.jcarousel2-wrapper a:hover {
+	color: #FFF;
+	text-decoration: none;
+    background: none repeat scroll 0 0 #D9651E;
+}
+
+.jcarousel2-wrapper a:focus {
+	color: #FFF;
+	text-decoration: none;
+}
+
+
+/** Carousel Pagination **/
+
+.jcarousel2-pagination {
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    margin: 0;
+}
+
+.jcarousel2-pagination a {
+    text-decoration: none;
+    display: inline-block;
+
+    font-size: 11px;
+    height: 10px;
+    width: 10px;
+    line-height: 10px;
+
+    background: #fff;
+    color: #4E443C;
+    border-radius: 10px;
+    text-indent: -9999px;
+
+    margin-right: 7px;
+
+
+    -webkit-box-shadow: 0 0 2px #4E443C;
+    -moz-box-shadow: 0 0 2px #4E443C;
+    box-shadow: 0 0 2px #4E443C;
+}
+
+.jcarousel2-pagination a.active {
+    background: #4E443C;
+    color: #fff;
+    opacity: 1;
+
+    -webkit-box-shadow: 0 0 2px #F0EFE7;
+    -moz-box-shadow: 0 0 2px #F0EFE7;
+    box-shadow: 0 0 2px #F0EFE7;
+}
